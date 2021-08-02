@@ -1,5 +1,5 @@
 name: Myvery1st
-on: [create]
+on: [create, delete]
 jobs:
  buidlandland:
   runs-on: ubuntu-latest
