@@ -1,0 +1,8 @@
+name: Myvery1st
+on: [create]
+jobs:
+ buidlandland:
+  runs-on: ubuntu-latest
+  steps:
+   - name: my1ststep
+     run: echo He!
