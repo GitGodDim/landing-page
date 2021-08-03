@@ -20,7 +20,7 @@ jobs:
             username: ${{ secrets.REGISTRY_USERNAME }}
             password: ${{ secrets.REGISTRY_PASSWORD }}
         - run: |
-            docker build . -t itech.azurecr.io/appn1:latest
+            docker build . -t itech.azurecr.io/appn1:latest -t itech.azurecr.io/appn1:${{ github.sha }}
             docker push itech.azurecr.io/appn1:latest
  
    
