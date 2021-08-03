@@ -23,4 +23,4 @@ jobs:
             docker build . -t itech.azurecr.io/appn1:latest
             docker push itech.azurecr.io/appn1:latest
  
-  
+   
